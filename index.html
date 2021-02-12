@@ -1,4 +1,4 @@
-<html manifest="cache.manifest">
+<<html manifest="cache.manifest">
 <html>
 	<script>
         window.applicationCache.ondownloading = function()
@@ -121,7 +121,7 @@
 
 
 <script> // fancontrol
-    let defaultTemp = 78;
+    let defaultTemp = 74;
     let outputFan =document.getElementById("outputfan");
     null === localStorage.getItem("fancontrol") 
     ? (localStorage.setItem("fancontrol", defaultTemp), outputFan.innerText = localStorage.getItem("fancontrol")) 
